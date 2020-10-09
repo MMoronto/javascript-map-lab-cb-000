@@ -31,7 +31,7 @@ const zebraStripes = [
 ];
 
 const coloredZebraStripes = zebraStripes.map(function (zebraStripe) {
-  const stripeColor = zebraStripes[i].includes(zebraStripe.color) 
+  const stripeColor = zebraStripes[i] == (i/2 
   return Object.assign({}, zebraStripe, {
     stripeColor: stripeColor ? 'black' : 'white'
   })
